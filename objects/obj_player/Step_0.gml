@@ -15,10 +15,10 @@ switch dir {
 		}
 		break
 	case Direction.Right:
-		if(hmov < 10) then hmov+=2
+		if(hmov < 5) then hmov+=2
 		break
 	case Direction.Left:
-		if(hmov > -10) then hmov-=2
+		if(hmov > -5) then hmov-=2
 		break
 	default:
 		show_error("Did you break the game?",true)
